@@ -1,11 +1,13 @@
-# Calligraful
+# calligraful
 
-A kanji learning app for mobile devices that uses automated handwriting analysis to test JLPT kanji in an SRS format.
+calligraful will level up your kanji writing skills with a spaced repetition auto-grading AI
 
-## Ideas
+An SRS based flashcard app specialized in automatically grading hand written kanji. New kanji cards will following the standard JLPT testing structure and make use of common on/kun readings and RTK keywords to prompt the user.
 
-- Test writing kanji given on/kun readings + example words + RTK keyword
-  - Not sure if the RTK dataset is free or available to use given an open license
-- ipadOS only to make use of the Apple pen
-- Grade writings via some sort of AI-based OCR similiar to how Shirabe Jisho can tell what kanji is being drawn on screen
+## Details
+
+- Find a free or license supported source for JLPT kanji with on/kun readings and english keywords
+- Target tablets to learn how to work with stylus UI kits
+- Grade writings via an AI-based OCR similiar to how Shirabe Jisho can tell what kanji is being drawn on screen
 - Use the FSRS algorithm for SRS portion of the app
+- Allow the user to tweak the FSRS algorithm and new card rate
